@@ -1,0 +1,21 @@
+{
+  "name": "motor-control-server",
+  "version": "1.0.0",
+  "description": "A node server that communicates over usb with the motor controller and provides https endpoints for an api.",
+  "main": "index.js",
+  "author": "Sani Elfishawy",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "dependencies": {
+    "usb": "^2.12.1"
+  },
+  "scripts": {
+    "test": "LOG_LEVEL=silent nodemon",
+    "testdebug": "LOG_LEVEL=debug nodemon | pino-pretty"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}

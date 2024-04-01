@@ -1,0 +1,9 @@
+{
+    "watch": ["./**/*.js"],
+    "ignore": ["node_modules/**"],
+    "ext": "js, json",
+    "exec": "./test.sh",
+    "delay": "1500",
+    "env": {
+    }
+}
