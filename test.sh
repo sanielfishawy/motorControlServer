@@ -17,12 +17,12 @@ unset DEBUG
 
 # sudo -E node index.js &
 # node index.js &
-sleep 3
+# sleep 3
 
 ./node_modules/mocha/bin/_mocha -timeout 300000 --recursive 
 
 # mac
-kill -9 $(ps -ef | grep '[n]ode index.js' | awk '{print $2}') 
+# kill -9 $(ps -ef | grep '[n]ode index.js' | awk '{print $2}') 
 
 # linux
 # sudo kill -9 $(ps -aux | grep '[n]ode index.js' | awk '{print $2}')

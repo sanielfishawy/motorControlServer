@@ -5,8 +5,13 @@ import {usb, getDeviceList} from 'usb'
 export default class UsbHandler {
     static CDC_INTERFACE_CLASS = 10
     static stmComDevice = null
+    static initalized = false
+    static _incomingDataSubscriber = null
+    static _incomingErrorSubscriber = null
 
     static init() {
+        if (this.initalized) return
+
         usb.on('attach', async (device) => {
             await this.handleAttach(device)
         })
@@ -16,6 +21,7 @@ export default class UsbHandler {
         })
 
         console.log('Waiting for usb devices to be attached/detached...')
+        this.initalized = true
     }
 
     /**
@@ -48,12 +54,30 @@ export default class UsbHandler {
         }
     };
 
+    static set incomingDataSubscriber(subscriber) {
+        this._incomingDataSubscriber = subscriber
+    }
+
+    static get incomingDataSubscriber() {
+        return this._incomingDataSubscriber
+    }
+
     static handleIncomingData(data) {
         console.log('Received data:', data.toString('utf-8'))
+        if (UsbHandler.incomingDataSubscriber) UsbHandler.incomingDataSubscriber(data)
+    }
+
+    static set incomingErrorSubscriber(subscriber) {
+        this._incomingErrorSubscriber = subscriber
+    }
+
+    static get incomingErrorSubscriber() {
+        return this._incomingErrorSubscriber
     }
 
     static handleIncomingError(error) {
         console.log('Received error:', error)
+        if (UsbHandler.incomingErrorSubscriber) UsbHandler.incomingErrorSubscriber(error)
     }
 
     static handleIncomingEnd() {
@@ -238,5 +262,5 @@ async function main() {
     }
 }
 
-await main()
+// await main()
 // console.log('done')

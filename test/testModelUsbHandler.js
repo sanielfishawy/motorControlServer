@@ -8,8 +8,8 @@ describe('testModelUsbHandler.js', () => {
     let r
 
     before(async () => {
-        UsbHandler.init()
-        await sleep(5000)
+        // UsbHandler.init()
+        // await sleep(5000)
     })
 
     describe('sendString()', () => {
