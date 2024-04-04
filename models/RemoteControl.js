@@ -1,8 +1,11 @@
+import _ from 'lodash'
+import Logger from '../util/logger.js'
 import UsbHandler from "./UsbHandler.js"
 
+const logger = new Logger()
 export default class RemoteControl{
 
-    static commands = []
+    static commands = {}
 
     static init(){
         UsbHandler.init()
@@ -10,46 +13,61 @@ export default class RemoteControl{
         UsbHandler.incomingErrorSubscriber = this.handleIncomingError
     }
 
+    /**
+     * @param {{}} commandObject 
+     */
     static async transmit(commandObject){
+        if(!_.isObject(commandObject)) return this.transmitError('Command object must be a js object.')
+
         const command = this.addCommand(commandObject)
-        return command.transmit()
+        const responsePromise = await command.transmit()
+
+        // Remove the command here if there is an error since there will not be a response to remove it.
+        if (command.error)
+            this.removeCommand(command)
+
+        return responsePromise
+    }
+
+    static async transmitError(error){
+        return new Promise((resolve, reject) => {
+            resolve({ok: false, error})
+        })
     }
 
     static addCommand(commandObject){
         const command = new RemoteControlCommand(commandObject)
-        this.commands.push(command)
+        this.commands[command.id] = command
         return command
     }
 
+    static removeCommand(command){
+        delete this.commands[command.id]
+    }
+
     static handleIncomingData(data){
+        let response
         try {
-            console.log('Handle')
-            const response = JSON.parse(data.toString('utf-8'))
-            const id = response.id
-            if (!id) return console.log('Incoming data has no id:', response)
-            const command = RemoteControl.commandWithId(id)
-            if (!command) return console.log('No command found for incoming data:', response)
-            command.response = response
-            command.resolve( {ok: true, results: response} )
+            response = JSON.parse(data.toString('utf-8'))
         } catch (error) {
-            console.log(error)
+            return (logger.error(error))
         }
+
+        const id = response?.id
+        if (!id) return logger.error('Incoming data has no id:', response)
+
+        const command = RemoteControl.commandWithId(id)
+        if (!command) return logger.error('No command found for incoming data:', response)
+
+        command.handleResponse(response)
+        RemoteControl.removeCommand(command)
     }
 
     static handleIncomingError(error){
     }
 
-
-    static get commandsWithNoResponse(){
-        return this.commands.filter(c => !c.response)
-    }
-
-    static get commandsWithError(){
-        return this.commands.filter(c => c.error)
-    }
-
     static commandWithId(id){
-        return this.commands.find(c => c.id === id)
+        return this.commands[id]
     }
 }
 
@@ -67,7 +85,10 @@ export class RemoteControlCommand{
     }
 
     async transmit(){
-        if(this.transmitted) this.resolve( {ok: false, error: 'Command already transmitted'} )
+        if(this.transmitted){
+            this.handleError('Command already transmitted')
+            return this.responsePromise
+        }
 
         this.commandObject.id = this.id
 
@@ -75,17 +96,29 @@ export class RemoteControlCommand{
         try {   
             json = JSON.stringify(this.commandObject)
         } catch (error) {
-            this.error = 'Failed to stringify command object'
-            this.resolve( {ok: false, error: this.error} )
+            this.handleError({message: 'Failed to stringify command object', commandObject})
+            return this.responsePromise
         }
 
         let r = await UsbHandler.sendString(json)
         if (!r.ok) {
-            this.error = r.error
-            this.resolve( {ok: false, error: this.error} )
+            this.handleError(r.error)
+            return this.responsePromise
         }
+
+        this.transmitted = true
         
         return this.responsePromise
+    }
+
+    handleResponse(response){
+        this.response = response
+        this.resolve({ok: true, results: this.response})
+    }
+
+    handleError(error){
+        this.error = error
+        this.resolve({ok: false, error: this.error})
     }
 
     async testResolveReject(){

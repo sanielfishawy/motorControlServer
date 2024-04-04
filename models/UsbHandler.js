@@ -1,7 +1,9 @@
 import util from 'util'
+import Logger from '../util/logger.js'
 import {sleep} from '../util/sleep.js'
 import {usb, getDeviceList} from 'usb'
 
+const logger = new Logger();
 export default class UsbHandler {
     static CDC_INTERFACE_CLASS = 10
     static stmComDevice = null
@@ -20,7 +22,7 @@ export default class UsbHandler {
             await this.handleDetach(device)
         })
 
-        console.log('Waiting for usb devices to be attached/detached...')
+        logger.info('Waiting for usb devices to be attached/detached...')
         this.initalized = true
     }
 
@@ -30,10 +32,11 @@ export default class UsbHandler {
     static async handleAttach(device) {
         const details = await this.getDeviceDetails(device)
         if (details.product.ok && details.product.results.includes('STM32 Virtual ComPort')) {
-            console.log('Attached:', util.inspect(details, true, 1, true));
+            logger.info('Attached')
+            logger.debug(util.inspect(details, true, 1, true))
             this.stmComDevice = {device, details}
             let r = await this.startPolling()
-            console.log('Started polling:', r)  
+            logger.info('Started polling:', r)  
         }
     }
 
@@ -41,16 +44,16 @@ export default class UsbHandler {
      * @param {usb.Device} device 
      */
     static async handleDetach(device) {
-        if (!this.stmComDevice) return console.log('Detached unknown device')
+        if (!this.stmComDevice) return logger.info('Detached unknown device')
 
         if ( device.deviceDescriptor.idVendor == this.stmComDevice.device.deviceDescriptor.idVendor && 
              device.deviceDescriptor.idProduct == this.stmComDevice.device.deviceDescriptor.idProduct) {
 
-            console.log('Detached stm32 virtual com port device')
+            logger.info('Detached stm32 virtual com port device')
             this.stmComDevice = null
         
         } else {
-            console.log('Detached NON stm com port device')
+            logger.info('Detached NON stm com port device')
         }
     };
 
@@ -63,7 +66,7 @@ export default class UsbHandler {
     }
 
     static handleIncomingData(data) {
-        console.log('Received data:', data.toString('utf-8'))
+        logger.debug('Received data:', data.toString('utf-8'))
         if (UsbHandler.incomingDataSubscriber) UsbHandler.incomingDataSubscriber(data)
     }
 
@@ -76,12 +79,12 @@ export default class UsbHandler {
     }
 
     static handleIncomingError(error) {
-        console.log('Received error:', error)
+        logger.error('Received error:', error)
         if (UsbHandler.incomingErrorSubscriber) UsbHandler.incomingErrorSubscriber(error)
     }
 
     static handleIncomingEnd() {
-        console.log('Received end of polling')
+        logger.info('Received end of polling')
     }
 
     static async startPolling(){
@@ -107,15 +110,15 @@ export default class UsbHandler {
 
 
     static async sendString(str) {
-        if(!this.stmComDevice) return {ok: false, error: 'Cant send string. No stm com device'}
+        if(!this.stmComDevice) return this.sendStringError('Cant send string. No stm com device')
 
         this.stmComDevice.device.open()
 
         let r = this.claimCdcInterface()
-        if(!r.ok) return {ok: false, error: r}
+        if(!r.ok) return this.sendStringError(r.error)
 
         r = this.stmComDevice.details.cdcOutEndpoint
-        if (!r?.ok) return {ok: false, error: r}
+        if (!r?.ok) return this.sendStringError(r.error)
         const outEndpoint = r.results
 
         const data = Buffer.from(str, 'utf-8')
@@ -125,11 +128,18 @@ export default class UsbHandler {
                 if (error) {
                     resolve({ok: false, error})
                 } else {
-                    resolve({ok: true, })
+                    resolve({ok: true})
                 }
             })
         })
     }
+
+    static async sendStringError(error) {
+        return new Promise((resolve, reject) => {
+            resolve({ok: false, error})
+        })
+    }
+
 
     static claimCdcInterface() {
         let r = this.stmComDevice?.details?.cdcInterface
@@ -253,14 +263,3 @@ export default class UsbHandler {
 
 }
 
-async function main() {
-    UsbHandler.init()
-    while (true){
-        const r = await UsbHandler.sendString('this is a long test string \n')
-        console.log({r})
-        await sleep(1000)
-    }
-}
-
-// await main()
-// console.log('done')

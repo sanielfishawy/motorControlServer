@@ -11,8 +11,9 @@ export PORT=8000
 unset DEBUG
 # export DEBUG='express:*'
 
-# unset LOG_LEVEL
-# export LOG_LEVEL=debug
+unset LOG_LEVEL
+export LOG_LEVEL=silent
+export LOG_SHOW_COLOR=true
 # export LOG_LEVEL=info
 
 # sudo -E node index.js &
