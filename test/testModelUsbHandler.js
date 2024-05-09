@@ -15,7 +15,7 @@ describe('testModelUsbHandler.js', () => {
 
         it('Should send the string and return ok', async () => {
             await getInput('Connect the USB cable and press enter to continue.\n')
-            r = await UsbHandler.sendString('this is a long test string \n')
+            r = await UsbHandler.sendString(JSON.stringify({command: 'test'}))
             expect(r.ok).to.be.true
         })
     })

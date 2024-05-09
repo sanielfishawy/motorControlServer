@@ -13,6 +13,11 @@ export default class RemoteControl{
         UsbHandler.incomingErrorSubscriber = this.handleIncomingError
     }
 
+    static deInit(){
+        UsbHandler.incomingDataSubscriber = null
+        UsbHandler.incomingErrorSubscriber = null
+    }
+
     /**
      * @param {{}} commandObject 
      */

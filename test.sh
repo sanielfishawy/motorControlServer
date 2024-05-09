@@ -12,7 +12,7 @@ unset DEBUG
 # export DEBUG='express:*'
 
 unset LOG_LEVEL
-export LOG_LEVEL=silent
+export LOG_LEVEL=debug
 export LOG_SHOW_COLOR=true
 # export LOG_LEVEL=info
 

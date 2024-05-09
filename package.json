@@ -8,8 +8,12 @@
   "type": "module",
   "private": false,
   "dependencies": {
+    "base-64": "^1.0.0",
     "chalk": "^5.3.0",
+    "commander": "^12.0.0",
     "lodash": "^4.17.21",
+    "mdns": "^2.7.2",
+    "multicast-dns": "^7.2.5",
     "usb": "^2.12.1"
   },
   "scripts": {
@@ -19,5 +23,8 @@
   "devDependencies": {
     "chai": "^5.1.0",
     "mocha": "^10.4.0"
+  },
+  "bin": {
+    "mot": "./cli/commands.js"
   }
 }

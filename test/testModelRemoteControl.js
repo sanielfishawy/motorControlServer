@@ -10,8 +10,12 @@ describe('testModelRemoteControl', () => {
 
     let r
 
-    before(async () => {
+    before(() => {
         RemoteControl.init()
+    })
+
+    after(() => {
+        RemoteControl.deInit()
     })
 
     describe('RemoteControlCommand', () => {
@@ -60,5 +64,3 @@ describe('testModelRemoteControl', () => {
     })
 
 })
-
-
