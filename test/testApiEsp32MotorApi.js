@@ -4,7 +4,7 @@ import * as McApi from '../api/Esp32MotorApi.js'
 
 const expect = chai.expect
 
-describe.only('testApiEsp32MotorApi', () => {
+describe('testApiEsp32MotorApi', () => {
 
     let r, j
 
