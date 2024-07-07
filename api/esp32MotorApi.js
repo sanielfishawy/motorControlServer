@@ -33,6 +33,14 @@ export async function getIsActive() {
     return getRequest('/isActive')
 }
 
+export async function setDynamicMeasurement(measurement){
+    return postRequest('/setDynamicMeasurement', measurement)
+}
+
+export async function getDynamicMeasurement(){
+    return getRequest('/getDynamicMeasurement')
+}
+
 async function getRequest(endpoint, params={}){
     return getOrPutRequest(endpoint, params, 'GET')
 }

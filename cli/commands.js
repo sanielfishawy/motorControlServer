@@ -2,7 +2,7 @@
 
 import util from 'util'
 import {program} from 'commander'
-import * as MApi from '../api/Esp32MotorApi.js'
+import * as MApi from '../api/esp32MotorApi.js'
 
 function runCli(){
     let c = program.command('getFreq')
@@ -43,6 +43,22 @@ function runCli(){
     c = program.command('status')
     c.action( async (options) => { 
         await printResponse(await MApi.getStatus())
+    })
+
+    c = program.command('setDynamicMeasurement <measurement>')
+    c.action ( async (measurement, options) => {
+        const m = {
+            minFreqHz: 10.5,
+            maxFreqHz: 15.5,
+            slipFract: 0.1,
+            amplitudeFract: 0.5,
+        }
+        await printResponse(await MApi.setDynamicMeasurement(m))
+    })
+
+    c = program.command('getDynamicMeasurement')
+    c.action( async (options) => {
+        await printResponse(await MApi.getDynamicMeasurement())
     })
 
     program.parse(process.argv)

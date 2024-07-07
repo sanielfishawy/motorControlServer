@@ -29,7 +29,7 @@ describe.only('testSpiceSvPwm2', () => {
 
     describe('getPulses()', () => {
         it.only('Should write pulses to files', async () => {
-            await getPulses(Math.PI/6, 100)
+            await getPulses(11*Math.PI/6, 100)
         })
     })
 })
