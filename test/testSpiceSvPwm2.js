@@ -3,7 +3,7 @@ import { SvPwm, getPulses } from '../script/spiceSvPwm2.js'
 
 const expect = chai.expect
 
-describe.only('testSpiceSvPwm2', () => {
+describe('testSpiceSvPwm2', () => {
 
     let r
 
@@ -28,7 +28,7 @@ describe.only('testSpiceSvPwm2', () => {
     })
 
     describe('getPulses()', () => {
-        it.only('Should write pulses to files', async () => {
+        it('Should write pulses to files', async () => {
             await getPulses(11*Math.PI/6, 100)
         })
     })

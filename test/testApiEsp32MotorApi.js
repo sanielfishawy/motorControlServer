@@ -1,6 +1,6 @@
 import * as chai from 'chai'
 import _ from 'lodash'
-import * as McApi from '../api/Esp32MotorApi.js'
+import * as McApi from '../api/esp32MotorApi.js'
 
 const expect = chai.expect
 
@@ -13,7 +13,41 @@ describe('testApiEsp32MotorApi', () => {
 
     after(() => {
     })
+    
+    describe('POST commands', () => {
+        describe('setDynamicMeasurement', () => {
+            it('Should set the dynamic measurement if all parameters are correct', async () => {
+                const measurement = {
+                    minFreqHz: 10.5,
+                    maxFreqHz: 15.5,
+                    slipFract: 0.1,
+                    amplitudeFract: 0.5,
+                }
+                r = await McApi.setDynamicMeasurement(measurement)
+                expect(r.ok).to.be.true
+                j = await r.json()
+                expect(j.results.minFreqHz).to.be.approximately(10.5, 0.0001)
+                expect(j.results.maxFreqHz).to.be.approximately(15.5, 0.0001)
+                expect(j.results.slipFract).to.be.approximately(0.1, 0.0001)    
+                expect(j.results.amplitudeFract).to.be.approximately(0.5, 0.0001)
+            })
 
+            it('Should return 400 error if a parameter is not correct', async () => {
+                const measurement = {
+                    minFreqHz: 10.5,
+                    maxFreqHz: 15.5,
+                    slipFract: 0.1,
+                    amplitudeFract: 'foo',
+                }
+                r = await McApi.setDynamicMeasurement(measurement)
+                expect(r.ok).to.be.false
+                expect(r.status).to.equal(400)
+                j = await r.json()
+                expect(j.error).to.be.a('string')
+            })
+        })
+    })
+    
     describe('GET commands', () => {
 
         describe('getFreqHz', () => {
@@ -40,6 +74,20 @@ describe('testApiEsp32MotorApi', () => {
                 j = await r.json()
                 expect(r.ok).to.be.true
                 expect(j.results.isActive).to.be.a('boolean')
+            })
+        })
+
+        describe('getDynamicMeasurement', () => {
+            it.only('Should return the dynamic measurement', async () => {
+                r = await McApi.getDynamicMeasurement()
+                j = await r.json()
+                expect(r.ok).to.be.true
+                expect(j.results.minFreqHz).to.be.a('number')
+                expect(j.results.maxFreqHz).to.be.a('number')
+                expect(j.results.slipFract).to.be.a('number')
+                expect(j.results.amplitudeFract).to.be.a('number')
+                expect(j.results.startTime).to.be.a('number')
+                expect(j.results.endTime).to.be.a('number')
             })
         })
 
