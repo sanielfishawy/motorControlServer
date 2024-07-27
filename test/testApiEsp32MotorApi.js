@@ -78,7 +78,7 @@ describe('testApiEsp32MotorApi', () => {
         })
 
         describe('getDynamicMeasurement', () => {
-            it.only('Should return the dynamic measurement', async () => {
+            it('Should return the dynamic measurement', async () => {
                 r = await McApi.getDynamicMeasurement()
                 j = await r.json()
                 expect(r.ok).to.be.true
