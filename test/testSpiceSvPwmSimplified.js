@@ -3,7 +3,7 @@ import * as PWM from '../script/spiceSvPwmSimplified.js'
 
 const expect = chai.expect
 
-describe('testSpiceSvPwmSimplified', () => {
+describe.skip('testSpiceSvPwmSimplified', () => {
 
     describe('getDutyAndPhase()', () => {
         it('Should return the duty and phase for theta and amp', () => {

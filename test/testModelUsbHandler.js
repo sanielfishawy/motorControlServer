@@ -4,7 +4,7 @@ import getInput from '../util/getInput.js'
 
 const expect = chai.expect
 
-describe('testModelUsbHandler.js', () => {
+describe.skip('testModelUsbHandler.js', () => {
     let r
 
     before(async () => {

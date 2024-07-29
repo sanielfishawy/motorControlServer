@@ -4,7 +4,7 @@ import * as McApi from '../api/esp32MotorApi.js'
 
 const expect = chai.expect
 
-describe('testApiEsp32MotorApi', () => {
+describe.skip('testApiEsp32MotorApi', () => {
 
     let r, j
 

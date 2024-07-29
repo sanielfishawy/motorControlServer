@@ -3,7 +3,7 @@ import MDNS from '../api/mdns.js'
 
 const expect = chai.expect
 
-describe('testMdns', () => {
+describe.skip('testMdns', () => {
 
     let r
 

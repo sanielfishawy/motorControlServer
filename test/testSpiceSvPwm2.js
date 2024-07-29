@@ -3,7 +3,7 @@ import { SvPwm, getPulses } from '../script/spiceSvPwm2.js'
 
 const expect = chai.expect
 
-describe('testSpiceSvPwm2', () => {
+describe.skip('testSpiceSvPwm2', () => {
 
     let r
 

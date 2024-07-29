@@ -1,8 +1,7 @@
-import fs, { write } from 'fs'
-import yaml from 'js-yaml'
-import { assert } from 'chai'
-import * as MAPI from '../api/esp32MotorApi.js'
-import { sleep } from '../util/sleep.js'
+import * as MAPI from '../../api/esp32MotorApi.js'
+import { sleep } from '../../util/sleep.js'
+
+import Measurement from './Measurement.js'
 
 export class MeasurementRunner {
 
@@ -36,49 +35,7 @@ export class MeasurementRunner {
     }
 }
 
-export class Measurement {
-
-    constructor({minFreqHz, maxFreqHz, slipFract, amplitudeFract}) {
-        this._params = {minFreqHz, maxFreqHz, slipFract, amplitudeFract}
-        this.startTime = 0
-        this.endTime = 0
-    }
-
-    async run() {
-        const result = await MeasurementRunner.run(this)
-        this.startTime = result.startTime
-        this.endTime = result.endTime
-        return this.duration
-    }
-
-    get params() {
-        return this._params
-    }
-
-    get paramsForStore() {
-        return {...this.params, startTime: this.startTime, endTime: this.endTime}
-    }
-
-    get id() {
-        return JSON.stringify(this.params)
-    }
-
-    get duration() {
-        if (this.endTime == 0) return null 
-        return this.endTime - this.startTime
-    }
-
-    get slipFract(){
-        return this.params.slipFract
-    }
-
-    async save(file='dynamicTuning.yml'){
-        const ms = new MeasurementStore(file)
-        return ms.saveMeasurement(this)
-    }
-}
-
-export class Measurements {
+export class MeasurementsCreator {
 
     static LOW_FREQ = 10
     static HIGH_FREQ = 15 
@@ -107,43 +64,8 @@ export class Measurements {
     }
 }
 
-export class MeasurementStore{
-
-    static DATA_DIR = '/Users/sanielfishawy/dev/motorController/motorControlServer/data/tuning/' 
-
-    constructor(file='dynamicTuning.yml'){
-        this.file = MeasurementStore.DATA_DIR + file
-    }
-
-
-    /**
-     * @param {Measurement} measurement 
-     */
-    async saveMeasurement(measurement){
-        const measurements = await this.read()
-        measurements[measurement.id] = measurement.paramsForStore
-        await this.write(measurements)
-    }
-
-    async getMeasurements(){
-        return this.read()
-    }
-
-    async read(){
-        if (!fs.existsSync(this.file)) return {}
-        const yml = await fs.promises.readFile(this.file, 'utf8')
-        return yaml.load(yml)
-    }
-
-    async write(measurements){
-        const yml = yaml.dump(measurements)
-        await fs.promises.writeFile(this.file, yml)
-    }
-
-}
-
 async function runMeasurements() {
-    const measurements = Measurements.getMeasurements()
+    const measurements = MeasurementsCreator.getMeasurements()
     for (const measurement of measurements) {
         console.log(measurement.params)
         const result = await measurement.run()

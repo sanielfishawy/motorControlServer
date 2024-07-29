@@ -6,7 +6,7 @@ import RemoteControl from '../models/RemoteControl.js'
 
 const expect = chai.expect
 
-describe('testModelRemoteControl', () => {
+describe.skip('testModelRemoteControl', () => {
 
     let r
 

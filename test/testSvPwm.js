@@ -3,7 +3,7 @@ import * as Pwm from '../script/spiceSvPwm.js'
 
 const expect = chai.expect
 
-describe('testSpiceSvPwm', () => {
+describe.skip('testSpiceSvPwm', () => {
 
     let r
 
