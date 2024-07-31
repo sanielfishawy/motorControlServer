@@ -2,10 +2,10 @@ import MeasurementStore from './MeasurementStore.js'
 
 export default class Measurement {
 
-    constructor({minFreqHz, maxFreqHz, slipFract, amplitudeFract}) {
+    constructor({minFreqHz, maxFreqHz, slipFract, amplitudeFract, startTime=0, endTime=0}) {
         this._params = {minFreqHz, maxFreqHz, slipFract, amplitudeFract}
-        this.startTime = 0
-        this.endTime = 0
+        this._startTime = startTime
+        this._endTime = endTime
     }
 
     async run() {
@@ -55,6 +55,22 @@ export default class Measurement {
 
     get amplitudeFract(){
         return this.params.amplitudeFract
+    }
+
+    get startTime(){
+        return this._startTime
+    }
+
+    set startTime(startTime){
+        this._startTime = startTime
+    }
+
+    get endTime(){
+        return this._endTime
+    }
+
+    set endTime(endTime){
+        this._endTime = endTime
     }
 
     async save(file='dynamicTuning.yml'){

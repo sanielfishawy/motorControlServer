@@ -10,6 +10,19 @@ export default class MeasurementStore{
         this.file = MeasurementStore.DATA_DIR + file
     }
 
+    /**
+     * @param {[Measurement]} measurements 
+     */
+    static async saveMeasurements(measurements, file='dynamicTuning.yml'){
+        const store = new this(file)
+
+        const measurementsHash = {}
+        for (let m of measurements){
+            measurementsHash[m.id] = m.paramsForStore
+        }
+
+        store.write(measurementsHash)
+    }
 
     /**
      * @param {Measurement} measurement 
@@ -20,8 +33,19 @@ export default class MeasurementStore{
         await this.write(measurements)
     }
 
+    /**
+     * @returns {Object}
+     */
     async getMeasurements(){
         return this.read()
+    }
+
+    /**
+     * @returns {[Measurement]}
+     */
+    async getMeasurementsAsArray(){
+        const measurements = await this.getMeasurements()
+        return Object.keys(measurements).map(k => new Measurement(measurements[k]))
     }
 
     async read(){
@@ -33,6 +57,11 @@ export default class MeasurementStore{
     async write(measurements){
         const yml = yaml.dump(measurements)
         await fs.promises.writeFile(this.file, yml)
+    }
+
+    async hasMeasurement(params){
+        const measurements = await this.getMeasurements()
+        return measurements[JSON.stringify(params)] !== undefined   
     }
 
 }

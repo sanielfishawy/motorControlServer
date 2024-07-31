@@ -5,7 +5,7 @@ import Measurements from '../models/tuning/Measurements.js'
 
 const expect = chai.expect
 
-describe.only('MeasurementSeed.js', () => {
+describe('MeasurementSeed.js', () => {
 
     describe('Parabola', () => {
         describe('getY()', () => {

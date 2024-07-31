@@ -13,3 +13,10 @@ export async function getMotorIp(){
 export async function getMotorApiIpUrl(){
     return `http://${await getMotorIp()}`
 }
+
+
+export const LOCAL_DOMAIN = 'http://localhost'
+
+export function getPort(){
+    return process.env.PORT || 8083
+}

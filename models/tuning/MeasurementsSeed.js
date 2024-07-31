@@ -15,6 +15,26 @@ export class MeasurementSeed {
         this.ampStep = ampStep
     }
 
+    static seedMeasurements(){
+        const minAmplitudeFract = 0.3
+        const maxAmplitudeFract = 1
+        const ampStep = 0.1
+        const minFreqHz = 2
+        const maxFreqHz = 60
+        const freqStep = 2
+
+        const ms =  new MeasurementSeed({
+            minAmplitudeFract,
+            maxAmplitudeFract,
+            ampStep,
+            minFreqHz,
+            maxFreqHz,
+            freqStep,
+        }).measurements
+
+        
+    }
+
     get measurements(){
         let measurements = []
         for (let minFreqHz of this.freqs){
