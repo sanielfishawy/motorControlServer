@@ -53,6 +53,10 @@ export default class Measurement {
         return this.params.minFreqHz
     }
 
+    get maxFreqHz(){
+        return this.params.maxFreqHz
+    }
+
     get amplitudeFract(){
         return this.params.amplitudeFract
     }

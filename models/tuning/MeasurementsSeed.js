@@ -1,4 +1,5 @@
 import Measurement from './Measurement.js'
+import MeasurementStore from './MeasurementStore.js'
 
 export class MeasurementSeed {
     static MAXIMUM_TORQUE = 10
@@ -16,6 +17,12 @@ export class MeasurementSeed {
     }
 
     static seedMeasurements(){
+        // const minAmplitudeFract = 0.3
+        // const maxAmplitudeFract = 0.4
+        // const ampStep = 0.1
+        // const minFreqHz = 2
+        // const maxFreqHz = 4
+        // const freqStep = 2
         const minAmplitudeFract = 0.3
         const maxAmplitudeFract = 1
         const ampStep = 0.1
@@ -32,7 +39,7 @@ export class MeasurementSeed {
             freqStep,
         }).measurements
 
-        
+        MeasurementStore.saveMeasurements(ms)
     }
 
     get measurements(){
@@ -137,6 +144,8 @@ export class Parabola{
     }
 
     getY(x){
-        return this.a * (x - this.vX)**2 + this.vY
+        let y = this.a * (x - this.vX)**2 + this.vY
+        if (y < 0) y = 0
+        return y
     }
 }

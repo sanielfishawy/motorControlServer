@@ -1,19 +1,20 @@
 import fs, { write } from 'fs'
 import yaml from 'js-yaml'
 import Measurement from './Measurement.js'
+import * as Config from '../../config/config.js'
 
 export default class MeasurementStore{
 
     static DATA_DIR = '/Users/sanielfishawy/dev/motorController/motorControlServer/data/tuning/' 
 
-    constructor(file='dynamicTuning.yml'){
-        this.file = MeasurementStore.DATA_DIR + file
+    static getDefaultDataFile(){
+        return MeasurementStore.DATA_DIR + Config.getDynamicTuningDataFile()
     }
 
     /**
      * @param {[Measurement]} measurements 
      */
-    static async saveMeasurements(measurements, file='dynamicTuning.yml'){
+    static saveMeasurements(measurements, file){
         const store = new this(file)
 
         const measurementsHash = {}
@@ -24,43 +25,47 @@ export default class MeasurementStore{
         store.write(measurementsHash)
     }
 
+    constructor(file){
+        this.file = MeasurementStore.DATA_DIR + (file || Config.getDynamicTuningDataFile())
+    }
+
     /**
      * @param {Measurement} measurement 
      */
-    async saveMeasurement(measurement){
-        const measurements = await this.read()
+    saveMeasurement(measurement){
+        const measurements = this.read()
         measurements[measurement.id] = measurement.paramsForStore
-        await this.write(measurements)
+        this.write(measurements)
     }
 
     /**
      * @returns {Object}
      */
-    async getMeasurements(){
+    getMeasurements(){
         return this.read()
     }
 
     /**
      * @returns {[Measurement]}
      */
-    async getMeasurementsAsArray(){
-        const measurements = await this.getMeasurements()
+    getMeasurementsAsArray(){
+        const measurements = this.getMeasurements()
         return Object.keys(measurements).map(k => new Measurement(measurements[k]))
     }
 
-    async read(){
+    read(){
         if (!fs.existsSync(this.file)) return {}
-        const yml = await fs.promises.readFile(this.file, 'utf8')
+        const yml = fs.readFileSync(this.file, 'utf8')
         return yaml.load(yml)
     }
 
-    async write(measurements){
+    write(measurements){
         const yml = yaml.dump(measurements)
-        await fs.promises.writeFile(this.file, yml)
+        fs.writeFileSync(this.file, yml)
     }
 
-    async hasMeasurement(params){
-        const measurements = await this.getMeasurements()
+    hasMeasurement(params){
+        const measurements = this.getMeasurements()
         return measurements[JSON.stringify(params)] !== undefined   
     }
 

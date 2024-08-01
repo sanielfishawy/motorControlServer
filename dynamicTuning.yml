@@ -1,7 +1,0 @@
-'{"minFreqHz":1,"maxFreqHz":2,"slipFract":0.1,"amplitudeFract":0.2}':
-  minFreqHz: 1
-  maxFreqHz: 2
-  slipFract: 0.1
-  amplitudeFract: 0.2
-  startTime: 0
-  endTime: 0

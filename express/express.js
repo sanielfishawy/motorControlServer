@@ -4,7 +4,8 @@ import * as CM from './middleware/corsMiddleware.js'
 import tuningRouter from './routes/tuning.js'
 import * as Config from '../config/config.js'
 import * as DC from '../config/displayConfig.js'
-import { logMessageAndObj } from '../logging/logger.js'
+import Logger from '../util/logger.js'
+const logger = new Logger()
 
 export const app = express()
 
@@ -31,14 +32,15 @@ app.get('/status', async (req, res) => {
 
 app.use('/tuning', tuningRouter)
 
+
 export function startServer(){
     return app.listen(Config.getPort(), () => {
-        logMessageAndObj(`Server started on port ${Config.getPort()}. ${Config.LOCAL_DOMAIN}:${Config.getPort()}`)
+        logger.info(`Server started on port ${Config.getPort()}. ${Config.LOCAL_DOMAIN}:${Config.getPort()}`)
     }).on('error', function(error){
         if (error.code === 'EADDRINUSE'){
-            logMessageAndObj(`WARNING: ${Config.getNormalizedEnvironment()} server already running.`, {}, 'warn')
+            logger.error(`WARNING: ${Config.getNormalizedEnvironment()} server already running.`)
         } else {
-            logMessageAndObj('Error starting Express Server', {error}, 'error')
+            logger.error('Error starting Express Server', {error})
         }
     })
 }

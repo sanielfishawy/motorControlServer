@@ -39,8 +39,29 @@ export default class SlipGroup{
     get minFreq(){
         return this.measurements[0].minFreqHz
     }
+    
+    get maxFreq(){
+        return this.measurements[0].maxFreqHz
+    }
 
     get amplitudeFract(){
         return this.measurements[0].amplitudeFract
+    }
+
+    get slipTorquePoints(){
+        return this.measurements.map(m => { return {slipFract: m.slipFract, torque: m.torque} })
+    }
+
+    get paramsForUi(){
+        return {
+            minFreqHz: this.minFreq,
+            maxFreqHz: this.maxFreq,
+            amplitudeFract: this.amplitudeFract,
+            slipForMaxTorque: this.slipForMaxTorque,
+            slipForNinetyPercentTorque: this.slipForNinetyPercentTorque,
+            maxTorque: this.maxTorque,
+            ninetyPercentTorque: this.ninetyPercentTorque,
+            slipTorquePoints: this.slipTorquePoints,
+        }
     }
 }

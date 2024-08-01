@@ -1,11 +1,14 @@
 import * as chai from 'chai'
 import * as Seed from '../models/tuning/MeasurementsSeed.js'
+import * as Config from '../config/config.js'
 import Measurement from '../models/tuning/Measurement.js'
 import Measurements from '../models/tuning/Measurements.js'
+import MeasurementStore from '../models/tuning/MeasurementStore.js'
 
 const expect = chai.expect
 
 describe('MeasurementSeed.js', () => {
+    let r
 
     describe('Parabola', () => {
         describe('getY()', () => {
@@ -71,6 +74,14 @@ describe('MeasurementSeed.js', () => {
                 //         slipForNinetyPercentTorque: sg.slipForNinetyPercentTorque,
                 //     })
                 // }
+            })
+        })
+
+        describe('static seedMeasurements()', () => {
+            it('Should save seed measurements to a file', () => {
+                Seed.MeasurementSeed.seedMeasurements()
+                r = new MeasurementStore(Config.getDynamicTuningDataFile()).getMeasurementsAsArray()
+                expect(r.length).to.equal(4320)
             })
         })
     })
