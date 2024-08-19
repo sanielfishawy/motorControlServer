@@ -41,7 +41,7 @@ export function getTestUrl(){
 }
 
 export function getPort(){
-    return process.env.PORT || 8083
+    return process.env.PORT || 8000
 }
 
 export function getRawEnvironment(){

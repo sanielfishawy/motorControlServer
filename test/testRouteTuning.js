@@ -4,7 +4,7 @@ import * as Seed from '../models/tuning/MeasurementsSeed.js'
 
 const expect = chai.expect
 
-describe.only('testRouteTuning.js', () => {
+describe('testRouteTuning.js', () => {
 
     let r, j
 
@@ -24,7 +24,6 @@ describe.only('testRouteTuning.js', () => {
             expect(j.results[0]).to.have.property('maxTorque')
             expect(j.results[0]).to.have.property('ninetyPercentTorque')
             expect(j.results.length).to.be.greaterThan(100)
-            console.log(j.results[0])
         })
 
     })

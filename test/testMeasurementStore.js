@@ -84,8 +84,23 @@ describe('MeasurementStore.js', () => {
                 const m = new Measurement({minFreqHz: 1, maxFreqHz: 2, slipFract: 3, amplitudeFract: 4, startTime: 5, endTime: 6})
                 const ms = new MeasurementStore(testFile)
                 ms.saveMeasurement(m)
-                expect(ms.hasMeasurement(m.params)).to.be.true
-                expect(ms.hasMeasurement({minFreqHz: 1, maxFreqHz: 2, slipFract: 3, amplitudeFract: 5})).to.be.false
+                expect(ms.hasMeasurement(m)).to.be.true
+                expect(ms.hasMeasurement(new Measurement({minFreqHz: 1, maxFreqHz: 2, slipFract: 3, amplitudeFract: 5}))).to.be.false
+            })
+        })
+
+        describe.only('removeMeasurement', () => {
+            it('Should remove a measurement from the store', () => {
+                const ms = new MeasurementStore(testFile)
+                const m = new Measurement({minFreqHz: 1, maxFreqHz: 2, slipFract: 3, amplitudeFract: 4, startTime: 5, endTime: 6})
+                ms.saveMeasurement(m)
+                expect(ms.hasMeasurement(m)).to.be.true
+
+                const measurements = ms.getMeasurementsAsInstanceOfMeasurements()
+                const mfound = measurements.withMinFreqAmpAndSlip(1, 4, 3)
+                expect(mfound.length).to.equal(1)
+                ms.removeMeasurement(mfound[0])
+                expect(ms.hasMeasurement(mfound[0])).to.be.false
             })
         })
 

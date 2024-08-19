@@ -1,7 +1,11 @@
 import fs, { write } from 'fs'
 import yaml from 'js-yaml'
 import Measurement from './Measurement.js'
+import Measurements from './Measurements.js'
 import * as Config from '../../config/config.js'
+import Logger from '../../util/Logger.js'
+
+const log = new Logger({prefix: 'MeasurementStore'})
 
 export default class MeasurementStore{
 
@@ -53,6 +57,10 @@ export default class MeasurementStore{
         return Object.keys(measurements).map(k => new Measurement(measurements[k]))
     }
 
+    getMeasurementsAsInstanceOfMeasurements(){
+        return new Measurements(this.getMeasurementsAsArray())
+    }
+
     read(){
         if (!fs.existsSync(this.file)) return {}
         const yml = fs.readFileSync(this.file, 'utf8')
@@ -64,9 +72,20 @@ export default class MeasurementStore{
         fs.writeFileSync(this.file, yml)
     }
 
-    hasMeasurement(params){
+    /**
+     * @param {Measurement} measurement 
+     * @returns {boolean}
+     */
+    hasMeasurement(measurement){
         const measurements = this.getMeasurements()
-        return measurements[JSON.stringify(params)] !== undefined   
+        return measurements[measurement.id] !== undefined   
+    }
+
+    removeMeasurement(measurement){
+        const measurements = this.getMeasurements()
+        log.info('Removing measurement', measurements[measurement.id])
+        delete measurements[measurement.id]
+        this.write(measurements)
     }
 
 }

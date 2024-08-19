@@ -37,6 +37,7 @@ export default class SlipGroup{
     }
 
     get minFreq(){
+        if(!this.measurements[0]) console.log(this)
         return this.measurements[0].minFreqHz
     }
     

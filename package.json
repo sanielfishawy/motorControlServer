@@ -24,7 +24,8 @@
   },
   "scripts": {
     "test": "LOG_LEVEL=silent nodemon",
-    "testdebug": "LOG_LEVEL=debug nodemon | pino-pretty"
+    "testdebug": "LOG_LEVEL=debug nodemon | pino-pretty",
+    "runDynamic": "ENV=development ./runDynamic.sh"
   },
   "devDependencies": {
     "chai": "^5.1.0",

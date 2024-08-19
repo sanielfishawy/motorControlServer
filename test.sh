@@ -17,13 +17,13 @@ export LOG_SHOW_COLOR=true
 # export LOG_LEVEL=info
 
 # sudo -E node index.js &
-node index.js &
-sleep 2
+# node index.js &
+# sleep 2
 
 ./node_modules/mocha/bin/_mocha -timeout 300000 --recursive 
 
 # mac
-kill -9 $(ps -ef | grep '[n]ode index.js' | awk '{print $2}') 
+# kill -9 $(ps -ef | grep '[n]ode index.js' | awk '{print $2}') 
 
 # linux
 # sudo kill -9 $(ps -aux | grep '[n]ode index.js' | awk '{print $2}')

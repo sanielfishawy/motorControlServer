@@ -35,7 +35,7 @@ app.use('/tuning', tuningRouter)
 
 export function startServer(){
     return app.listen(Config.getPort(), () => {
-        logger.info(`Server started on port ${Config.getPort()}. ${Config.LOCAL_DOMAIN}:${Config.getPort()}`)
+        logger.info(`Server started on port ${Config.getPort()}. ${Config.getLocalDomain()}:${Config.getPort()}`)
     }).on('error', function(error){
         if (error.code === 'EADDRINUSE'){
             logger.error(`WARNING: ${Config.getNormalizedEnvironment()} server already running.`)
