@@ -4,7 +4,7 @@ import * as McApi from '../api/esp32MotorApi.js'
 
 const expect = chai.expect
 
-describe.skip('testApiEsp32MotorApi', () => {
+describe('testApiEsp32MotorApi', () => {
 
     let r, j
 
@@ -50,6 +50,14 @@ describe.skip('testApiEsp32MotorApi', () => {
     
     describe('GET commands', () => {
 
+        describe('getStatus', () => {
+            it('Should return the status', async () => {
+                r = await McApi.getStatus()
+                j = await r.json()
+                console.log(j)
+            })
+        })
+
         describe('getFreqHz', () => {
             it('Should return the freqHz ', async () => {
                 r = await McApi.getFreqHz()
@@ -88,6 +96,35 @@ describe.skip('testApiEsp32MotorApi', () => {
                 expect(j.results.amplitudeFract).to.be.a('number')
                 expect(j.results.startTime).to.be.a('number')
                 expect(j.results.endTime).to.be.a('number')
+            })
+        })
+
+        describe('getUseGoPedal', () => {
+            it('Should return the useGoPedal state', async () => {
+                r = await McApi.getUseGoPedal()
+                j = await r.json()
+                expect(r.ok).to.be.true
+                expect(j.results.useGoPedal).to.be.a('boolean')
+            })
+        })
+
+        describe('getTorque', () => {
+            it('Should return the torque', async () => {
+                r = await McApi.getTorque()
+                j = await r.json()
+                expect(r.ok).to.be.true
+                expect(j.results.torqueFract).to.be.a('number')
+            })
+        })
+
+        describe('getGoPedalStatus', () => {
+            it('Should return the goPedalStatus', async () => {
+                r = await McApi.getGoPedalStatus()
+                j = await r.json()
+                expect(j.ok).to.be.a('boolean')
+                if(!j.ok){
+                    expect (j.error).to.be.a('object')
+                }
             })
         })
 
@@ -133,6 +170,52 @@ describe.skip('testApiEsp32MotorApi', () => {
                 expect(j.ok).to.be.false
                 expect(j.error).to.be.a('string')
                 r = await McApi.setFreqHz('foo')
+                expect(r.status).to.equal(400)
+                j = await r.json()
+                expect(j.ok).to.be.false
+                expect(j.error).to.be.a('string')
+            })
+        })
+
+        describe('setTorque', () => {
+            it("Shoud set the torque and return the set torque", async () => {
+                r = await McApi.setTorque(0.1)
+                expect(r.status).to.equal(200)
+                j = await r.json()
+                expect(j.ok).to.be.true
+                expect(j.results.torqueFract).to.be.approximately(0.1, 0.0001)
+            })
+
+            it("Should return 400 error if the value is not given or is not a number", async () => {
+                r = await McApi.setTorque()
+                expect(r.status).to.equal(400)
+                j = await r.json()
+                expect(j.ok).to.be.false
+                expect(j.error).to.be.a('string')
+                r = await McApi.setTorque('foo')
+                expect(r.status).to.equal(400)
+                j = await r.json()
+                expect(j.ok).to.be.false
+                expect(j.error).to.be.a('string')
+            })
+        })
+
+        describe('setUseGoPedal', () => {
+            it("Shoud set the useGoPedal and return the set useGoPedal", async () => {
+                r = await McApi.setUseGoPedal(true)
+                expect(r.status).to.equal(200)
+                j = await r.json()
+                expect(j.ok).to.be.true
+                expect(j.results.useGoPedal).to.be.true
+            })
+
+            it("Should return 400 error if the value is not given or is not a number", async () => {
+                r = await McApi.setUseGoPedal()
+                expect(r.status).to.equal(400)
+                j = await r.json()
+                expect(j.ok).to.be.false
+                expect(j.error).to.be.a('string')
+                r = await McApi.setUseGoPedal('foo')
                 expect(r.status).to.equal(400)
                 j = await r.json()
                 expect(j.ok).to.be.false

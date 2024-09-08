@@ -89,7 +89,7 @@ describe('MeasurementStore.js', () => {
             })
         })
 
-        describe.only('removeMeasurement', () => {
+        describe('removeMeasurement', () => {
             it('Should remove a measurement from the store', () => {
                 const ms = new MeasurementStore(testFile)
                 const m = new Measurement({minFreqHz: 1, maxFreqHz: 2, slipFract: 3, amplitudeFract: 4, startTime: 5, endTime: 6})

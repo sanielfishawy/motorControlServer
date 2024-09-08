@@ -41,6 +41,26 @@ export async function getDynamicMeasurement(){
     return getRequest('/getDynamicMeasurement')
 }
 
+export async function getUseGoPedal(){
+    return getRequest('/useGoPedal')
+}
+
+export async function setUseGoPedal(value){
+    return putRequest('/useGoPedal', {value})
+}
+
+export async function getTorque(){
+    return getRequest('/torque')
+}
+
+export async function setTorque(value){
+    return putRequest('/torque', {value})
+}
+
+export async function getGoPedalStatus(){
+    return getRequest('/goPedalStatus')
+}
+
 async function getRequest(endpoint, params={}){
     return getOrPutRequest(endpoint, params, 'GET')
 }

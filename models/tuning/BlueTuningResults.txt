@@ -1,0 +1,27 @@
+Slip vs Frequency for Max Torque
+================================
+
+FreqHz < 1
+    - Set frequency to 3Hz
+
+1 <= FreqHz <= 18
+    SlipFract = -0.022 * FreqHz + 0.62
+
+FreqHz > 18
+    SlipFract = 0.26
+
+See https://www.desmos.com/calculator/mgvnae1eu7
+
+
+Torq vs Amplitude By FreqHz
+===========================
+
+2Hz -> 6Hz
+    Torque = 1.33 * AmpFract - 0.29
+
+6Hz -> 10Hz
+    Torque = 
+
+See https://www.desmos.com/calculator/zrwnd9arjn
+
+

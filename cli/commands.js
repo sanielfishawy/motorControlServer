@@ -45,6 +45,31 @@ function runCli(){
         await printResponse(await MApi.getStatus())
     })
 
+    c = program.command('getGoPedalStatus')
+    c.action( async (options) => { 
+        await printResponse(await MApi.getGoPedalStatus())
+    })
+
+    c = program.command('getTorque')
+    c.action( async (options) => {
+        await printResponse(await MApi.getTorque())
+    })
+
+    c = program.command('setTorque <torque>')
+    c.action( async (torque, options) => {
+        await printResponse(await MApi.setTorque(torque))
+    })
+
+    c = program.command('getUseGoPedal')
+    c.action( async (options) => {
+        await printResponse(await MApi.getUseGoPedal())
+    })
+
+    c = program.command('setUseGoPedal <trueOrFalse>')
+    c.action( async (trueOrFalse, options) => {
+        await printResponse(await MApi.setUseGoPedal(trueOrFalse))
+    })
+
     c = program.command('setDynamicMeasurement <measurement>')
     c.action ( async (measurement, options) => {
         const m = {

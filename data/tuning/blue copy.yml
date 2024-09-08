@@ -6018,13 +6018,6 @@
   amplitudeFract: 0.30000000000000004
   startTime: 1055225728
   endTime: -1
-'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.16,"amplitudeFract":0.30000000000000004}':
-  minFreqHz: 18
-  maxFreqHz: 22
-  slipFract: 0.16
-  amplitudeFract: 0.30000000000000004
-  startTime: 1072405760
-  endTime: 1072825728
 '{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.17,"amplitudeFract":0.30000000000000004}':
   minFreqHz: 18
   maxFreqHz: 22
@@ -6382,13 +6375,6 @@
   amplitudeFract: 0.5
   startTime: 1892685696
   endTime: 1895605760
-'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.22000000000000006,"amplitudeFract":0.5}':
-  minFreqHz: 18
-  maxFreqHz: 22
-  slipFract: 0.22000000000000006
-  amplitudeFract: 0.5
-  startTime: 1902585728
-  endTime: 1903565824
 '{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.23000000000000007,"amplitudeFract":0.5}':
   minFreqHz: 18
   maxFreqHz: 22
@@ -7978,13 +7964,6 @@
   amplitudeFract: 0.6
   startTime: 4708246016
   endTime: 4710565888
-'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.20000000000000004,"amplitudeFract":0.6}':
-  minFreqHz: 22
-  maxFreqHz: 26
-  slipFract: 0.20000000000000004
-  amplitudeFract: 0.6
-  startTime: 4739185664
-  endTime: 4739605504
 '{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.21000000000000005,"amplitudeFract":0.6}':
   minFreqHz: 22
   maxFreqHz: 26
@@ -8881,13 +8860,6 @@
   amplitudeFract: 0.30000000000000004
   startTime: 6300785664
   endTime: -1
-'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.10999999999999999,"amplitudeFract":0.30000000000000004}':
-  minFreqHz: 26
-  maxFreqHz: 30
-  slipFract: 0.10999999999999999
-  amplitudeFract: 0.30000000000000004
-  startTime: 6321105920
-  endTime: 6324465664
 '{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.11999999999999998,"amplitudeFract":0.30000000000000004}':
   minFreqHz: 26
   maxFreqHz: 30
@@ -9042,13 +9014,6 @@
   amplitudeFract: 0.4
   startTime: 6742445568
   endTime: -1
-'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.10999999999999999,"amplitudeFract":0.4}':
-  minFreqHz: 26
-  maxFreqHz: 30
-  slipFract: 0.10999999999999999
-  amplitudeFract: 0.4
-  startTime: 6761205760
-  endTime: 6768325632
 '{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.11999999999999998,"amplitudeFract":0.4}':
   minFreqHz: 26
   maxFreqHz: 30
@@ -10197,13 +10162,6 @@
   amplitudeFract: 0.2
   startTime: 9087725568
   endTime: -1
-'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.15,"amplitudeFract":0.2}':
-  minFreqHz: 30
-  maxFreqHz: 34
-  slipFract: 0.15
-  amplitudeFract: 0.2
-  startTime: 9111006208
-  endTime: 9113365504
 '{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.16,"amplitudeFract":0.2}':
   minFreqHz: 30
   maxFreqHz: 34
@@ -10470,13 +10428,6 @@
   amplitudeFract: 0.4
   startTime: 9971625984
   endTime: -1
-'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.08,"amplitudeFract":0.4}':
-  minFreqHz: 30
-  maxFreqHz: 34
-  slipFract: 0.08
-  amplitudeFract: 0.4
-  startTime: 9990985728
-  endTime: 9991086080
 '{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.09,"amplitudeFract":0.4}':
   minFreqHz: 30
   maxFreqHz: 34
@@ -10603,13 +10554,6 @@
   amplitudeFract: 0.4
   startTime: 12210485248
   endTime: -1
-'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.2700000000000001,"amplitudeFract":0.4}':
-  minFreqHz: 30
-  maxFreqHz: 34
-  slipFract: 0.2700000000000001
-  amplitudeFract: 0.4
-  startTime: 12231107584
-  endTime: 12232905728
 '{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.2800000000000001,"amplitudeFract":0.4}':
   minFreqHz: 30
   maxFreqHz: 34
@@ -10764,13 +10708,6 @@
   amplitudeFract: 0.5
   startTime: 12730246144
   endTime: -1
-'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.2700000000000001,"amplitudeFract":0.5}':
-  minFreqHz: 30
-  maxFreqHz: 34
-  slipFract: 0.2700000000000001
-  amplitudeFract: 0.5
-  startTime: 12755105792
-  endTime: 12758905856
 '{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.2800000000000001,"amplitudeFract":0.5}':
   minFreqHz: 30
   maxFreqHz: 34
@@ -10911,13 +10848,6 @@
   amplitudeFract: 0.6
   startTime: 13137886208
   endTime: 13143225344
-'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.25000000000000006,"amplitudeFract":0.6}':
-  minFreqHz: 30
-  maxFreqHz: 34
-  slipFract: 0.25000000000000006
-  amplitudeFract: 0.6
-  startTime: 13154925568
-  endTime: 13157325824
 '{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.26000000000000006,"amplitudeFract":0.6}':
   minFreqHz: 30
   maxFreqHz: 34
@@ -11989,13 +11919,6 @@
   amplitudeFract: 0.4
   startTime: 16194065408
   endTime: -1
-'{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.18000000000000002,"amplitudeFract":0.4}':
-  minFreqHz: 34
-  maxFreqHz: 38
-  slipFract: 0.18000000000000002
-  amplitudeFract: 0.4
-  startTime: 16217745408
-  endTime: 16224625664
 '{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.19000000000000003,"amplitudeFract":0.4}':
   minFreqHz: 34
   maxFreqHz: 38
@@ -12682,13 +12605,6 @@
   amplitudeFract: 0.7999999999999999
   startTime: 19938066432
   endTime: 19940345856
-'{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.25000000000000006,"amplitudeFract":0.7999999999999999}':
-  minFreqHz: 34
-  maxFreqHz: 38
-  slipFract: 0.25000000000000006
-  amplitudeFract: 0.7999999999999999
-  startTime: 19955486720
-  endTime: 19957125120
 '{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.26000000000000006,"amplitudeFract":0.7999999999999999}':
   minFreqHz: 34
   maxFreqHz: 38
@@ -12794,13 +12710,6 @@
   amplitudeFract: 0.8999999999999999
   startTime: 311723328
   endTime: 313403072
-'{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.18000000000000002,"amplitudeFract":0.8999999999999999}':
-  minFreqHz: 34
-  maxFreqHz: 38
-  slipFract: 0.18000000000000002
-  amplitudeFract: 0.8999999999999999
-  startTime: 329263072
-  endTime: 330443136
 '{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.19000000000000003,"amplitudeFract":0.8999999999999999}':
   minFreqHz: 34
   maxFreqHz: 38
@@ -15524,20 +15433,6 @@
   amplitudeFract: 0.7999999999999999
   startTime: 19752742912
   endTime: 19758163968
-'{"minFreqHz":42,"maxFreqHz":46,"slipFract":0.17,"amplitudeFract":0.7999999999999999}':
-  minFreqHz: 42
-  maxFreqHz: 46
-  slipFract: 0.17
-  amplitudeFract: 0.7999999999999999
-  startTime: 19812544512
-  endTime: 19813683200
-'{"minFreqHz":42,"maxFreqHz":46,"slipFract":0.18000000000000002,"amplitudeFract":0.7999999999999999}':
-  minFreqHz: 42
-  maxFreqHz: 46
-  slipFract: 0.18000000000000002
-  amplitudeFract: 0.7999999999999999
-  startTime: 19869863936
-  endTime: 19871823872
 '{"minFreqHz":42,"maxFreqHz":46,"slipFract":0.19000000000000003,"amplitudeFract":0.7999999999999999}':
   minFreqHz: 42
   maxFreqHz: 46
@@ -16154,13 +16049,6 @@
   amplitudeFract: 0.30000000000000004
   startTime: 30068443136
   endTime: -1
-'{"minFreqHz":46,"maxFreqHz":50,"slipFract":0.15,"amplitudeFract":0.30000000000000004}':
-  minFreqHz: 46
-  maxFreqHz: 50
-  slipFract: 0.15
-  amplitudeFract: 0.30000000000000004
-  startTime: 30815422464
-  endTime: 30816743424
 '{"minFreqHz":46,"maxFreqHz":50,"slipFract":0.16,"amplitudeFract":0.30000000000000004}':
   minFreqHz: 46
   maxFreqHz: 50
@@ -17960,3 +17848,2824 @@
   amplitudeFract: 0.5
   startTime: 10412737536
   endTime: -1
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.22000000000000006,"amplitudeFract":0.5}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.22000000000000006
+  amplitudeFract: 0.5
+  startTime: 102751776
+  endTime: 106031880
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.20000000000000004,"amplitudeFract":0.6}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.20000000000000004
+  amplitudeFract: 0.6
+  startTime: 114331768
+  endTime: 116931768
+'{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.25000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 34
+  maxFreqHz: 38
+  slipFract: 0.25000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 197031792
+  endTime: 199891776
+'{"minFreqHz":34,"maxFreqHz":38,"slipFract":0.18000000000000002,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 34
+  maxFreqHz: 38
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.8999999999999999
+  startTime: 313571968
+  endTime: 315411872
+'{"minFreqHz":42,"maxFreqHz":46,"slipFract":0.17,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 42
+  maxFreqHz: 46
+  slipFract: 0.17
+  amplitudeFract: 0.7999999999999999
+  startTime: 432551872
+  endTime: 439751776
+'{"minFreqHz":42,"maxFreqHz":46,"slipFract":0.18000000000000002,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 42
+  maxFreqHz: 46
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.7999999999999999
+  startTime: 683231872
+  endTime: 690551744
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.07,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.07
+  amplitudeFract: 0.7999999999999999
+  startTime: 471869440
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.08,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.08
+  amplitudeFract: 0.7999999999999999
+  startTime: 544229504
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.09,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.09
+  amplitudeFract: 0.7999999999999999
+  startTime: 831789504
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.09999999999999999,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.09999999999999999
+  amplitudeFract: 0.7999999999999999
+  startTime: 2598989568
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.10999999999999999,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.10999999999999999
+  amplitudeFract: 0.7999999999999999
+  startTime: 2892473600
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.11999999999999998,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.11999999999999998
+  amplitudeFract: 0.7999999999999999
+  startTime: 4041609472
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.12999999999999998,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.12999999999999998
+  amplitudeFract: 0.7999999999999999
+  startTime: 4300809216
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.13999999999999999,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.13999999999999999
+  amplitudeFract: 0.7999999999999999
+  startTime: 4630749696
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.15,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.15
+  amplitudeFract: 0.7999999999999999
+  startTime: 4778129408
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.16,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.16
+  amplitudeFract: 0.7999999999999999
+  startTime: 5378650112
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.17,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.17
+  amplitudeFract: 0.7999999999999999
+  startTime: 5790049280
+  endTime: 5804329472
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.18000000000000002,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.7999999999999999
+  startTime: 7647529472
+  endTime: 7661549568
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.19000000000000003,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.19000000000000003
+  amplitudeFract: 0.7999999999999999
+  startTime: 7689409536
+  endTime: 7704269312
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.20000000000000004,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.20000000000000004
+  amplitudeFract: 0.7999999999999999
+  startTime: 7926769664
+  endTime: 7939610112
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.21000000000000005,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.21000000000000005
+  amplitudeFract: 0.7999999999999999
+  startTime: 8267369984
+  endTime: 8281809408
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.22000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.22000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 8386769408
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.23000000000000007,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.23000000000000007
+  amplitudeFract: 0.7999999999999999
+  startTime: 8493669376
+  endTime: 8508429824
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.24000000000000007,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.24000000000000007
+  amplitudeFract: 0.7999999999999999
+  startTime: 9540089856
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.25000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.25000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 9617469440
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.26000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.26000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 9656929280
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2700000000000001,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2700000000000001
+  amplitudeFract: 0.7999999999999999
+  startTime: 10143309824
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2800000000000001,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2800000000000001
+  amplitudeFract: 0.7999999999999999
+  startTime: 10181729280
+  endTime: 10192809984
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2900000000000001,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2900000000000001
+  amplitudeFract: 0.7999999999999999
+  startTime: 10815009792
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.07,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.07
+  amplitudeFract: 0.8999999999999999
+  startTime: 10998729728
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.08,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.08
+  amplitudeFract: 0.8999999999999999
+  startTime: 11298909184
+  endTime: 11312509952
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.09,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.09
+  amplitudeFract: 0.8999999999999999
+  startTime: 11630589952
+  endTime: 11644149760
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.09999999999999999,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.09999999999999999
+  amplitudeFract: 0.8999999999999999
+  startTime: 11662850048
+  endTime: 11669609472
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.10999999999999999,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.10999999999999999
+  amplitudeFract: 0.8999999999999999
+  startTime: 12144789504
+  endTime: 12153769984
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.11999999999999998,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.11999999999999998
+  amplitudeFract: 0.8999999999999999
+  startTime: 12376790016
+  endTime: 12384489472
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.12999999999999998,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.12999999999999998
+  amplitudeFract: 0.8999999999999999
+  startTime: 12762009600
+  endTime: 12769029120
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.13999999999999999,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.13999999999999999
+  amplitudeFract: 0.8999999999999999
+  startTime: 13324309504
+  endTime: 13332289536
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.15,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.15
+  amplitudeFract: 0.8999999999999999
+  startTime: 14219829248
+  endTime: 14226490368
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.16,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.16
+  amplitudeFract: 0.8999999999999999
+  startTime: 14595609600
+  endTime: 14602529792
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.17,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.17
+  amplitudeFract: 0.8999999999999999
+  startTime: 14671110144
+  endTime: 14677609472
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.18000000000000002,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.8999999999999999
+  startTime: 14995649536
+  endTime: 15002009600
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.19000000000000003,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.19000000000000003
+  amplitudeFract: 0.8999999999999999
+  startTime: 15111189504
+  endTime: 15118609408
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.20000000000000004,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.20000000000000004
+  amplitudeFract: 0.8999999999999999
+  startTime: 15369128960
+  endTime: 15375289344
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.21000000000000005,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.21000000000000005
+  amplitudeFract: 0.8999999999999999
+  startTime: 15634869248
+  endTime: 15641629696
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.22000000000000006,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.22000000000000006
+  amplitudeFract: 0.8999999999999999
+  startTime: 15728289792
+  endTime: 15734889472
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.23000000000000007,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.23000000000000007
+  amplitudeFract: 0.8999999999999999
+  startTime: 15777750016
+  endTime: 15785809920
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.24000000000000007,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.24000000000000007
+  amplitudeFract: 0.8999999999999999
+  startTime: 15938589696
+  endTime: 15946029056
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.25000000000000006,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.25000000000000006
+  amplitudeFract: 0.8999999999999999
+  startTime: 15983849472
+  endTime: 15991369728
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.26000000000000006,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.26000000000000006
+  amplitudeFract: 0.8999999999999999
+  startTime: 16107689984
+  endTime: 16114849792
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2700000000000001,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2700000000000001
+  amplitudeFract: 0.8999999999999999
+  startTime: 16498829312
+  endTime: 16505809920
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2800000000000001,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2800000000000001
+  amplitudeFract: 0.8999999999999999
+  startTime: 16526369792
+  endTime: 16533869568
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2900000000000001,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2900000000000001
+  amplitudeFract: 0.8999999999999999
+  startTime: 16577909760
+  endTime: 16582689792
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.07,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.07
+  amplitudeFract: 0.9999999999999999
+  startTime: 16720449536
+  endTime: -1
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.08,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.08
+  amplitudeFract: 0.9999999999999999
+  startTime: 17058369536
+  endTime: 17067629568
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.09,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.09
+  amplitudeFract: 0.9999999999999999
+  startTime: 17156569088
+  endTime: 17163909120
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.09999999999999999,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.09999999999999999
+  amplitudeFract: 0.9999999999999999
+  startTime: 17189908480
+  endTime: 17196529664
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.10999999999999999,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.10999999999999999
+  amplitudeFract: 0.9999999999999999
+  startTime: 17537269760
+  endTime: 17543350272
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.11999999999999998,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.11999999999999998
+  amplitudeFract: 0.9999999999999999
+  startTime: 17676890112
+  endTime: 17681989632
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.12999999999999998,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.12999999999999998
+  amplitudeFract: 0.9999999999999999
+  startTime: 17882470400
+  endTime: 17888468992
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.13999999999999999,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.13999999999999999
+  amplitudeFract: 0.9999999999999999
+  startTime: 17984208896
+  endTime: 17988988928
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.15,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.15
+  amplitudeFract: 0.9999999999999999
+  startTime: 18410229760
+  endTime: 18414749696
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.16,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.16
+  amplitudeFract: 0.9999999999999999
+  startTime: 18510309376
+  endTime: 18515048448
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.17,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.17
+  amplitudeFract: 0.9999999999999999
+  startTime: 18670448640
+  endTime: 18674909184
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.18000000000000002,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.9999999999999999
+  startTime: 18727569408
+  endTime: 18732189696
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.19000000000000003,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.19000000000000003
+  amplitudeFract: 0.9999999999999999
+  startTime: 18794770432
+  endTime: 18799069184
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.20000000000000004,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.20000000000000004
+  amplitudeFract: 0.9999999999999999
+  startTime: 18902790144
+  endTime: 18907289600
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.21000000000000005,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.21000000000000005
+  amplitudeFract: 0.9999999999999999
+  startTime: 19202209792
+  endTime: 19206549504
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.22000000000000006,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.22000000000000006
+  amplitudeFract: 0.9999999999999999
+  startTime: 19680870400
+  endTime: 19685289984
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.23000000000000007,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.23000000000000007
+  amplitudeFract: 0.9999999999999999
+  startTime: 20142850048
+  endTime: 20147148800
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.24000000000000007,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.24000000000000007
+  amplitudeFract: 0.9999999999999999
+  startTime: 20333830144
+  endTime: 20338388992
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.25000000000000006,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.25000000000000006
+  amplitudeFract: 0.9999999999999999
+  startTime: 20657309696
+  endTime: 20661669888
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.26000000000000006,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.26000000000000006
+  amplitudeFract: 0.9999999999999999
+  startTime: 20693288960
+  endTime: 20698148864
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2700000000000001,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2700000000000001
+  amplitudeFract: 0.9999999999999999
+  startTime: 20866650112
+  endTime: 20871368704
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2800000000000001,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2800000000000001
+  amplitudeFract: 0.9999999999999999
+  startTime: 21112389632
+  endTime: 21117128704
+'{"minFreqHz":50,"maxFreqHz":54,"slipFract":0.2900000000000001,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 50
+  maxFreqHz: 54
+  slipFract: 0.2900000000000001
+  amplitudeFract: 0.9999999999999999
+  startTime: 21383131136
+  endTime: 21388408832
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.07,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.07
+  amplitudeFract: 0.7999999999999999
+  startTime: 21433309184
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.08,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.08
+  amplitudeFract: 0.7999999999999999
+  startTime: 21538789376
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.09,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.09
+  amplitudeFract: 0.7999999999999999
+  startTime: 21671108608
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.09999999999999999,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.09999999999999999
+  amplitudeFract: 0.7999999999999999
+  startTime: 22365569024
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.10999999999999999,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.10999999999999999
+  amplitudeFract: 0.7999999999999999
+  startTime: 22705889280
+  endTime: 22708789248
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.11999999999999998,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.11999999999999998
+  amplitudeFract: 0.7999999999999999
+  startTime: 22811129856
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.12999999999999998,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.12999999999999998
+  amplitudeFract: 0.7999999999999999
+  startTime: 24236269568
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.13999999999999999,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.13999999999999999
+  amplitudeFract: 0.7999999999999999
+  startTime: 24861808640
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.15,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.15
+  amplitudeFract: 0.7999999999999999
+  startTime: 25317130240
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.16,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.16
+  amplitudeFract: 0.7999999999999999
+  startTime: 25759969280
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.17,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.17
+  amplitudeFract: 0.7999999999999999
+  startTime: 25880369152
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.18000000000000002,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.7999999999999999
+  startTime: 26177529856
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.19000000000000003,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.19000000000000003
+  amplitudeFract: 0.7999999999999999
+  startTime: 26280249344
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.20000000000000004,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.20000000000000004
+  amplitudeFract: 0.7999999999999999
+  startTime: 26822250496
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.21000000000000005,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.21000000000000005
+  amplitudeFract: 0.7999999999999999
+  startTime: 26978990080
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.22000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.22000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 27134068736
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.23000000000000007,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.23000000000000007
+  amplitudeFract: 0.7999999999999999
+  startTime: 27642030080
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.24000000000000007,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.24000000000000007
+  amplitudeFract: 0.7999999999999999
+  startTime: 28910569472
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.25000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.25000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 29114089472
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.26000000000000006,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.26000000000000006
+  amplitudeFract: 0.7999999999999999
+  startTime: 29287010304
+  endTime: 29300029440
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.2700000000000001,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.2700000000000001
+  amplitudeFract: 0.7999999999999999
+  startTime: 29547149312
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.2800000000000001,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.2800000000000001
+  amplitudeFract: 0.7999999999999999
+  startTime: 29590208512
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.2900000000000001,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.2900000000000001
+  amplitudeFract: 0.7999999999999999
+  startTime: 31243450368
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.07,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.07
+  amplitudeFract: 0.8999999999999999
+  startTime: 31327649792
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.08,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.08
+  amplitudeFract: 0.8999999999999999
+  startTime: 31632248832
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.09,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.09
+  amplitudeFract: 0.8999999999999999
+  startTime: 32470568960
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.09999999999999999,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.09999999999999999
+  amplitudeFract: 0.8999999999999999
+  startTime: 33534990336
+  endTime: -1
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.10999999999999999,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.10999999999999999
+  amplitudeFract: 0.8999999999999999
+  startTime: 34280308736
+  endTime: 34293268480
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.11999999999999998,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.11999999999999998
+  amplitudeFract: 0.8999999999999999
+  startTime: 34472050688
+  endTime: 34485010432
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.12999999999999998,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.12999999999999998
+  amplitudeFract: 0.8999999999999999
+  startTime: 34516529152
+  endTime: 34523508736
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.13999999999999999,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.13999999999999999
+  amplitudeFract: 0.8999999999999999
+  startTime: 35941408768
+  endTime: 35952508928
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.15,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.15
+  amplitudeFract: 0.8999999999999999
+  startTime: 36129107968
+  endTime: 36139208704
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.16,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.16
+  amplitudeFract: 0.8999999999999999
+  startTime: 36656930816
+  endTime: 36666208256
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.17,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.17
+  amplitudeFract: 0.8999999999999999
+  startTime: 38110068736
+  endTime: 38122070016
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.18000000000000002,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.18000000000000002
+  amplitudeFract: 0.8999999999999999
+  startTime: 38804008960
+  endTime: 38814150656
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.19000000000000003,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.19000000000000003
+  amplitudeFract: 0.8999999999999999
+  startTime: 39189790720
+  endTime: 39199531008
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.20000000000000004,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.20000000000000004
+  amplitudeFract: 0.8999999999999999
+  startTime: 39249588224
+  endTime: 39260454912
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.21000000000000005,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.21000000000000005
+  amplitudeFract: 0.8999999999999999
+  startTime: 39882350592
+  endTime: 39892348928
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.22000000000000006,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.22000000000000006
+  amplitudeFract: 0.8999999999999999
+  startTime: 40361791488
+  endTime: 40371449856
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.23000000000000007,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.23000000000000007
+  amplitudeFract: 0.8999999999999999
+  startTime: 41545728000
+  endTime: 41556049920
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.24000000000000007,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.24000000000000007
+  amplitudeFract: 0.8999999999999999
+  startTime: 41666949120
+  endTime: 41678188544
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.25000000000000006,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.25000000000000006
+  amplitudeFract: 0.8999999999999999
+  startTime: 41986588672
+  endTime: 41998028800
+'{"minFreqHz":54,"maxFreqHz":58,"slipFract":0.26000000000000006,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 54
+  maxFreqHz: 58
+  slipFract: 0.26000000000000006
+  amplitudeFract: 0.8999999999999999
+  startTime: 42480648192
+  endTime: 42494828544
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":1}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 1
+  startTime: 50458536
+  endTime: 50698536
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":1}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 1
+  startTime: 58578536
+  endTime: 58758536
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":1}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 1
+  startTime: 66818612
+  endTime: 66978536
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":1}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 1
+  startTime: 69218536
+  endTime: 69458536
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":1}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 1
+  startTime: 77178536
+  endTime: 77418536
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":1}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 1
+  startTime: 85518536
+  endTime: 85778536
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":1}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 1
+  startTime: 151778544
+  endTime: 151958528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":1}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 1
+  startTime: 159818608
+  endTime: 160058544
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":1}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 1
+  startTime: 162398544
+  endTime: 162739104
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":1}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 1
+  startTime: 170618544
+  endTime: 171098528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.30000000000000004
+  startTime: 224278544
+  endTime: 227018528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.30000000000000004
+  startTime: 234678544
+  endTime: 237398624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.30000000000000004
+  startTime: 244938544
+  endTime: 248298528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.30000000000000004
+  startTime: 256078720
+  endTime: 261538528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.30000000000000004
+  startTime: 269278528
+  endTime: -1
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.4}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.4
+  startTime: 290878624
+  endTime: 292058528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.4}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.4
+  startTime: 299698528
+  endTime: 300858528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.4}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.4
+  startTime: 308458528
+  endTime: 309798528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.4}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.4
+  startTime: 317658528
+  endTime: 319398528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.4}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.4
+  startTime: 326938528
+  endTime: 330200032
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.5}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.5
+  startTime: 337778592
+  endTime: 338498528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.5}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.5
+  startTime: 346418528
+  endTime: 347098624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.5}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.5
+  startTime: 355018528
+  endTime: 355758528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.5}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.5
+  startTime: 363718720
+  endTime: 364638528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.5}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.5
+  startTime: 372458528
+  endTime: 373918624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 381638528
+  endTime: 382118624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 389918528
+  endTime: 390358528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 397898528
+  endTime: 398358528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 406158528
+  endTime: 406758528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 414678720
+  endTime: 415538528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 423218528
+  endTime: 423578624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 431398528
+  endTime: 431718528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 439618528
+  endTime: 439958624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 447961440
+  endTime: 448358624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 456258624
+  endTime: 456838624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 464638624
+  endTime: 464918528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 472258528
+  endTime: 472518624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 480578528
+  endTime: 480818624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 488758528
+  endTime: 489038528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 496878528
+  endTime: 497278528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 505018528
+  endTime: 505258528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 512858528
+  endTime: 513058528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 520998528
+  endTime: 521198528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 529278528
+  endTime: 529498528
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 536758528
+  endTime: 537098560
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 545438720
+  endTime: 545658560
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 553038528
+  endTime: 553218624
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 561158528
+  endTime: 561318592
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 568878592
+  endTime: 569058560
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 576918720
+  endTime: 577158528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.30000000000000004
+  startTime: 579278528
+  endTime: 585338560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.30000000000000004
+  startTime: 592818560
+  endTime: 600158528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.30000000000000004
+  startTime: 607578752
+  endTime: 616858560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.30000000000000004
+  startTime: 623338624
+  endTime: -1
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.30000000000000004
+  startTime: 643118528
+  endTime: -1
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.4}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.4
+  startTime: 659678528
+  endTime: 661660416
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.4}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.4
+  startTime: 669218560
+  endTime: 671358528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.4}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.4
+  startTime: 678878592
+  endTime: 681739328
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.4}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.4
+  startTime: 689238720
+  endTime: 694558528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.4}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.4
+  startTime: 701958528
+  endTime: -1
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.5}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.5
+  startTime: 722818560
+  endTime: 723938560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.5}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.5
+  startTime: 731478528
+  endTime: 732558592
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.5}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.5
+  startTime: 740078592
+  endTime: 741438592
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.5}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.5
+  startTime: 748978560
+  endTime: 750958592
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.5}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.5
+  startTime: 758438592
+  endTime: 763059840
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 770438528
+  endTime: 771118528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 778518720
+  endTime: 779198528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 786738560
+  endTime: 787538688
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 795058624
+  endTime: 796258560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 803978560
+  endTime: 806198528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 813838656
+  endTime: 814318528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 821938560
+  endTime: 822418560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 829998528
+  endTime: 830538688
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 838038528
+  endTime: 838798656
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 846278592
+  endTime: 847638528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 855278528
+  endTime: 855618624
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 862998528
+  endTime: 863358528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 871138560
+  endTime: 871538560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 879218560
+  endTime: 879738560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 887258688
+  endTime: 888138560
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 895638528
+  endTime: 895918528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 903439232
+  endTime: 903718528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 911438720
+  endTime: 911758528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 919638528
+  endTime: 920038720
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 927598592
+  endTime: 928218688
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 935678528
+  endTime: 935918528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 943479424
+  endTime: 943718528
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 951578560
+  endTime: 951838656
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 959838528
+  endTime: 960158592
+'{"minFreqHz":10,"maxFreqHz":14,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 10
+  maxFreqHz: 14
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 967898560
+  endTime: 968398528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.30000000000000004
+  startTime: 1045678528
+  endTime: 1047538688
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.30000000000000004
+  startTime: 1055458560
+  endTime: 1056878528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.30000000000000004
+  startTime: 1065058560
+  endTime: 1066418560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.30000000000000004
+  startTime: 1082218624
+  endTime: 1083738496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.30000000000000004
+  startTime: 1099418496
+  endTime: 1101558528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.4}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.4
+  startTime: 1111158528
+  endTime: 1112258560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.4}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.4
+  startTime: 1121478528
+  endTime: 1122378624
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.4}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.4
+  startTime: 1130798592
+  endTime: 1131538560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.4}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.4
+  startTime: 1141578496
+  endTime: 1142358656
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.4}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.4
+  startTime: 1152381568
+  endTime: 1153298560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.5}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.5
+  startTime: 1178058496
+  endTime: 1178598528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.5}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.5
+  startTime: 1193798528
+  endTime: 1194238592
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.5}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.5
+  startTime: 1202478592
+  endTime: 1202918528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.5}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.5
+  startTime: 1211358592
+  endTime: 1211878656
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 1220158592
+  endTime: 1220698496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 1228998528
+  endTime: 1229398528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 1237598592
+  endTime: 1237938560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 1246678784
+  endTime: 1246978560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 1255478656
+  endTime: 1255818496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 1264098688
+  endTime: 1264578560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.5}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.5
+  startTime: 1320258560
+  endTime: 1320958592
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 1328718592
+  endTime: 1329058560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 1344318592
+  endTime: 1344598528
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 1388078592
+  endTime: 1388338560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 1397658496
+  endTime: 1398098560
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 1408679168
+  endTime: 1409038592
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 1424358528
+  endTime: 1424618496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 1437398528
+  endTime: 1437598592
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 1453738752
+  endTime: 1453918592
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 1485038592
+  endTime: 1485498496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 1564618496
+  endTime: 1565098496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 1580478592
+  endTime: 1580798592
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 1597658496
+  endTime: 1597898496
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 1637458560
+  endTime: 1637618560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.30000000000000004
+  startTime: 1642698624
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.30000000000000004
+  startTime: 1664078720
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.30000000000000004
+  startTime: 1684158592
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.30000000000000004
+  startTime: 1702398592
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.30000000000000004}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.30000000000000004
+  startTime: 1719438592
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.4}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.4
+  startTime: 1736438528
+  endTime: 1739978496
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.4}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.4
+  startTime: 1747358592
+  endTime: 1751778560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.4}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.4
+  startTime: 1759338496
+  endTime: 1767398656
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.4}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.4
+  startTime: 1774758656
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.4}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.4
+  startTime: 1795118592
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.5}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.5
+  startTime: 1811978496
+  endTime: 1813598592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.5}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.5
+  startTime: 1820978560
+  endTime: 1822818560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.5}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.5
+  startTime: 1830178688
+  endTime: 1832698624
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.5}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.5
+  startTime: 1840278656
+  endTime: 1845478528
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.5}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.5
+  startTime: 1852718592
+  endTime: -1
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 1872978560
+  endTime: 1873978624
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 1881759616
+  endTime: 1882838528
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 1890418560
+  endTime: 1891838592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 1899518592
+  endTime: 1901838592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 1909258496
+  endTime: 1918118656
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 1925558656
+  endTime: 1926238592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 1933958528
+  endTime: 1934658560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 1941938560
+  endTime: 1942798592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 1950238592
+  endTime: 1951598592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 1959379072
+  endTime: 1962538752
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 1969878528
+  endTime: 1970398592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 1978318592
+  endTime: 1978818560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 1986238720
+  endTime: 1986858624
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 1994258560
+  endTime: 1995219072
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 2003138688
+  endTime: 2004938496
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 2012558592
+  endTime: 2012939392
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 2020978560
+  endTime: 2021358592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 2029058560
+  endTime: 2029518592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 2037098496
+  endTime: 2037778560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 2045458560
+  endTime: 2046718592
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 2054538496
+  endTime: 2054858496
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 2062758528
+  endTime: 2063078528
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 2070598656
+  endTime: 2070978560
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 2078698624
+  endTime: 2079238528
+'{"minFreqHz":14,"maxFreqHz":18,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 14
+  maxFreqHz: 18
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 2087138560
+  endTime: 2088258560
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.3,"amplitudeFract":0.5}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.3
+  amplitudeFract: 0.5
+  startTime: 2092158592
+  endTime: 2094878592
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.4,"amplitudeFract":0.5}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.4
+  amplitudeFract: 0.5
+  startTime: 2102978560
+  endTime: 2106298624
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.5,"amplitudeFract":0.5}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.5
+  amplitudeFract: 0.5
+  startTime: 2113978496
+  endTime: 2119858688
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.6,"amplitudeFract":0.5}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.6
+  amplitudeFract: 0.5
+  startTime: 2127498496
+  endTime: -1
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.7,"amplitudeFract":0.5}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.7
+  amplitudeFract: 0.5
+  startTime: 2148758528
+  endTime: -1
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 2165618688
+  endTime: 2166961152
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 2174440448
+  endTime: 2176138496
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 2184038656
+  endTime: 2186538496
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 2194699008
+  endTime: 2200758528
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 2206938624
+  endTime: -1
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 2226998528
+  endTime: 2227958528
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 2235778560
+  endTime: 2236838656
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 2244638464
+  endTime: 2246118656
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 2253978624
+  endTime: 2256538624
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 2264578560
+  endTime: -1
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 2287478528
+  endTime: 2288138496
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 2296198656
+  endTime: 2296938496
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 2304958464
+  endTime: 2305938432
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 2314178560
+  endTime: 2315798528
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 2323958528
+  endTime: 2329458688
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 2337378560
+  endTime: 2337878528
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 2345978624
+  endTime: 2346558720
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 2354798592
+  endTime: 2355498496
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 2363558656
+  endTime: 2364638464
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 2372638464
+  endTime: 2375258624
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 2383118592
+  endTime: 2383518464
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 2391498496
+  endTime: 2391978496
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 2400098560
+  endTime: 2400658432
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 2408720640
+  endTime: 2409538560
+'{"minFreqHz":18,"maxFreqHz":22,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 18
+  maxFreqHz: 22
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 2417478656
+  endTime: 2419280896
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.3,"amplitudeFract":0.5}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.3
+  amplitudeFract: 0.5
+  startTime: 2424418560
+  endTime: 2428778496
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.4,"amplitudeFract":0.5}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.4
+  amplitudeFract: 0.5
+  startTime: 2437358592
+  endTime: 2444938496
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.5,"amplitudeFract":0.5}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.5
+  amplitudeFract: 0.5
+  startTime: 2453878528
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.6,"amplitudeFract":0.5}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.6
+  amplitudeFract: 0.5
+  startTime: 2475798528
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.7,"amplitudeFract":0.5}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.7
+  amplitudeFract: 0.5
+  startTime: 2494638592
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 2512798464
+  endTime: 2514958592
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 2523678464
+  endTime: 2526578688
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 2535058432
+  endTime: 2539978496
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 2548478720
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 2570338560
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 2587618560
+  endTime: 2588918528
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 2597498624
+  endTime: 2599078912
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 2607758592
+  endTime: 2610098432
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 2618778624
+  endTime: 2624958464
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 2633718784
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 2653638656
+  endTime: 2654598656
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 2663278592
+  endTime: 2664378624
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 2673138432
+  endTime: 2674958592
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 2683018496
+  endTime: 2686078464
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 2694498560
+  endTime: -1
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 2716658432
+  endTime: 2717318656
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 2725898496
+  endTime: 2726658560
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 2734878976
+  endTime: 2735978496
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 2744799488
+  endTime: 2747138560
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 2756318464
+  endTime: 2763618560
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 2772398592
+  endTime: 2772938496
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 2781738496
+  endTime: 2782338560
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 2791058432
+  endTime: 2791818496
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 2800478720
+  endTime: 2801838592
+'{"minFreqHz":22,"maxFreqHz":26,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 22
+  maxFreqHz: 26
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 2810518528
+  endTime: 2814258688
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.3,"amplitudeFract":0.6}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.3
+  amplitudeFract: 0.6
+  startTime: 2820558592
+  endTime: 2823998464
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.4,"amplitudeFract":0.6}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.4
+  amplitudeFract: 0.6
+  startTime: 2833418496
+  endTime: 2838438656
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.5,"amplitudeFract":0.6}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.5
+  amplitudeFract: 0.6
+  startTime: 2848018688
+  endTime: 2861018624
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.6,"amplitudeFract":0.6}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.6
+  amplitudeFract: 0.6
+  startTime: 2870378496
+  endTime: -1
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.7,"amplitudeFract":0.6}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.7
+  amplitudeFract: 0.6
+  startTime: 2890558720
+  endTime: -1
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 2910038528
+  endTime: 2911921920
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 2921038848
+  endTime: 2924378624
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 2934198528
+  endTime: 2938938624
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 2947978752
+  endTime: -1
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 2971298560
+  endTime: -1
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 2989878528
+  endTime: 2991198464
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 3001238784
+  endTime: 3002818560
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 3012858624
+  endTime: 3015278592
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 3025058560
+  endTime: 3031698432
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 3041338624
+  endTime: -1
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 3061878528
+  endTime: 3062738432
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 3072258560
+  endTime: 3073318656
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 3082718720
+  endTime: 3084298496
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 3094338560
+  endTime: 3097698560
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 3107658496
+  endTime: -1
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 3130258432
+  endTime: 3130960640
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 3140698624
+  endTime: 3141538560
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 3151538688
+  endTime: 3152758528
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 3162878464
+  endTime: 3165098496
+'{"minFreqHz":26,"maxFreqHz":30,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 26
+  maxFreqHz: 30
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 3174458624
+  endTime: 3182638592
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.3,"amplitudeFract":0.7}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.3
+  amplitudeFract: 0.7
+  startTime: 3189018624
+  endTime: 3191898624
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.4,"amplitudeFract":0.7}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.4
+  amplitudeFract: 0.7
+  startTime: 3203078656
+  endTime: 3206918656
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.5,"amplitudeFract":0.7}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.5
+  amplitudeFract: 0.7
+  startTime: 3218318592
+  endTime: 3227638784
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 3238118656
+  endTime: -1
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.7,"amplitudeFract":0.7}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.7
+  amplitudeFract: 0.7
+  startTime: 3260858624
+  endTime: -1
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.3,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.3
+  amplitudeFract: 0.7999999999999999
+  startTime: 3281578752
+  endTime: 3283278592
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.4,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.4
+  amplitudeFract: 0.7999999999999999
+  startTime: 3294178816
+  endTime: 3296478464
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.5,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.5
+  amplitudeFract: 0.7999999999999999
+  startTime: 3307418624
+  endTime: 3311598592
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.6,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.6
+  amplitudeFract: 0.7999999999999999
+  startTime: 3323498752
+  endTime: -1
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.7,"amplitudeFract":0.7999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.7
+  amplitudeFract: 0.7999999999999999
+  startTime: 3347038464
+  endTime: -1
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.3,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.3
+  amplitudeFract: 0.8999999999999999
+  startTime: 3366958592
+  endTime: 3368178432
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 3379118592
+  endTime: 3380958464
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 3392418560
+  endTime: 3394998528
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 3406758656
+  endTime: 3414098688
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 3424858624
+  endTime: -1
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.3,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.3
+  amplitudeFract: 0.9999999999999999
+  startTime: 3445418496
+  endTime: 3446358528
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.4,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.4
+  amplitudeFract: 0.9999999999999999
+  startTime: 3457358592
+  endTime: 3458558720
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.5,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.5
+  amplitudeFract: 0.9999999999999999
+  startTime: 3470278656
+  endTime: 3472078592
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 3484018432
+  endTime: 3488118528
+'{"minFreqHz":30,"maxFreqHz":34,"slipFract":0.7,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 30
+  maxFreqHz: 34
+  slipFract: 0.7
+  amplitudeFract: 0.9999999999999999
+  startTime: 3500078592
+  endTime: -1
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.9999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.9999999999999999
+  startTime: 3957938688
+  endTime: 3958118656
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.3,"amplitudeFract":0.2}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.3
+  amplitudeFract: 0.2
+  startTime: 95364224
+  endTime: 101924216
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.2}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.2
+  startTime: 111184224
+  endTime: 116424216
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.2}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.2
+  startTime: 124344240
+  endTime: 129604240
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.2}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.2
+  startTime: 137524224
+  endTime: 144964224
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.2}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.2
+  startTime: 152764224
+  endTime: -1
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.3,"amplitudeFract":0.2}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.3
+  amplitudeFract: 0.2
+  startTime: 170544320
+  endTime: -1
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.4,"amplitudeFract":0.2}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.4
+  amplitudeFract: 0.2
+  startTime: 191424224
+  endTime: -1
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.5,"amplitudeFract":0.2}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.5
+  amplitudeFract: 0.2
+  startTime: 211924224
+  endTime: -1
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.6,"amplitudeFract":0.2}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.6
+  amplitudeFract: 0.2
+  startTime: 231344224
+  endTime: -1
+'{"minFreqHz":6,"maxFreqHz":10,"slipFract":0.7,"amplitudeFract":0.2}':
+  minFreqHz: 6
+  maxFreqHz: 10
+  slipFract: 0.7
+  amplitudeFract: 0.2
+  startTime: 249044224
+  endTime: 261464224
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.7}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.7
+  startTime: 315064320
+  endTime: 315304256
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.4,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.4
+  amplitudeFract: 0.8999999999999999
+  startTime: 1359664256
+  endTime: 1359984256
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.5,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.5
+  amplitudeFract: 0.8999999999999999
+  startTime: 1368884352
+  endTime: 1369084160
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.6,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.6
+  amplitudeFract: 0.8999999999999999
+  startTime: 1378144384
+  endTime: 1378324224
+'{"minFreqHz":2,"maxFreqHz":6,"slipFract":0.7,"amplitudeFract":0.8999999999999999}':
+  minFreqHz: 2
+  maxFreqHz: 6
+  slipFract: 0.7
+  amplitudeFract: 0.8999999999999999
+  startTime: 1394584192
+  endTime: 1394744192

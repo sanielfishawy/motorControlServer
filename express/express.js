@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import * as CM from './middleware/corsMiddleware.js'
 import tuningRouter from './routes/tuning.js'
+import motorRouter from './routes/motor.js'
 import * as Config from '../config/config.js'
 import * as DC from '../config/displayConfig.js'
 import Logger from '../util/logger.js'
@@ -31,6 +32,7 @@ app.get('/status', async (req, res) => {
 })
 
 app.use('/tuning', tuningRouter)
+app.use('/motor', motorRouter)
 
 
 export function startServer(){
