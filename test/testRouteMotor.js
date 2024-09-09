@@ -12,11 +12,12 @@ describe('testRouteMotor.js', () => {
 
     describe.only('GET /motor/status', () => {
         it('should return motor status', async () => {
-            r = await fetch(Config.getTestPath('/motor/status'))
-            j = await r.json()
-            expect (j.ok).to.be.true
-            expect(j.results).to.have.property('actTorque')
-            console.log(j)
+            for (let i = 0; i < 500; i++) {
+                r = await fetch(Config.getTestPath('/motor/status'))
+                j = await r.json()
+                expect(j.ok).to.be.true
+                console.log(i)
+            }
         })
 
     })

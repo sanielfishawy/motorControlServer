@@ -52,9 +52,12 @@ describe('testApiEsp32MotorApi', () => {
 
         describe('getStatus', () => {
             it('Should return the status', async () => {
-                r = await McApi.getStatus()
-                j = await r.json()
-                console.log(j)
+                for (let i = 0; i < 500; i++) {
+                    r = await McApi.getStatus()
+                    j = await r.json()
+                    console.log(i)
+                    expect(j.ok).to.be.true
+                }
             })
         })
 

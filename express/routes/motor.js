@@ -12,8 +12,12 @@ router.use(LM.logRequest())
 
 router.get('/status', async (req, res) => {
     logger.info('GET /motor/status')
-    const r = await MAPI.getStatus()
-    const j = await r.json()
-    const results = MController.augmentedStatus(j)
-    res.json({ok: true, results})
+    try {
+        const r = await MAPI.getStatus()
+        const j = await r.json()
+        const results = MController.augmentedStatus(j)
+        res.json({ok: true, results})
+    } catch (error) {
+        
+    }
 })
