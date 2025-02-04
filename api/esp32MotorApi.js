@@ -61,6 +61,26 @@ export async function getGoPedalStatus(){
     return getRequest('/goPedalStatus')
 }
 
+export async function setContactorsPowerUp(){
+    return putRequest('/contactorsPowerUp')
+}
+
+export async function setContactorsPowerDown(){
+    return putRequest('/contactorsPowerDown')
+}
+
+export async function getContactorsStatus(){
+    return getRequest('/contactorsStatus')
+}
+
+export async function getInverterStatus(){
+    return getRequest('/rdycFltnStatus')
+}
+
+export async function resetInverter(){
+    return putRequest('/rdycFltnResetAndEnable')
+}
+
 async function getRequest(endpoint, params={}){
     return getOrPutRequest(endpoint, params, 'GET')
 }

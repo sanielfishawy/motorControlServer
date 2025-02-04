@@ -86,6 +86,31 @@ function runCli(){
         await printResponse(await MApi.getDynamicMeasurement())
     })
 
+    c = program.command('powerUp')
+    c.action( async (options) => {
+        await printResponse(await MApi.setContactorsPowerUp())
+    })
+
+    c = program.command('powerDown')
+    c.action( async (options) => {
+        await printResponse(await MApi.setContactorsPowerDown())
+    })
+
+    c = program.command('powerStatus')
+    c.action( async (options) => {
+        await printResponse(await MApi.getContactorsStatus())
+    })
+
+    c = program.command('inverterStatus')
+    c.action( async (options) => {
+        await printResponse(await MApi.getInverterStatus())
+    })
+
+    c = program.command('resetInverter')
+    c.action( async (options) => {
+        await printResponse(await MApi.resetInverter())
+    })
+
     program.parse(process.argv)
 }
 
